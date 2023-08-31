@@ -1,0 +1,162 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+::placeholder {
+  opacity: 40%;
+  font-family: Lato Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1d1f24;
+}
+
+.title {
+  margin: 0 38px 0 38px;
+}
+.logoBlack {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: -0.37px;
+  color: #1d1f24;
+}
+
+.logoRed {
+  color: #ff565c;
+}
+
+.logoWhite {
+  color: #f9fafc;
+}
+
+.navigation-element {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+  font-weight: medium;
+  color: #1d1f24;
+  opacity: 20%;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 30px;
+}
+.rectangle-line1 {
+  width: 27px;
+  border-top: 2px solid #dadada;
+}
+.rectangle-line2 {
+  width: 27px;
+  border-top: 2px solid #dadada;
+  margin-top: 5px;
+}
+.rectangle-line3 {
+  width: 27px;
+  border-top: 2px solid #dadada;
+  margin-top: 5px;
+}
+
+.division-line {
+  width: 100%;
+  border-top: 1px solid #ebebeb;
+}
+
+.card1-1 {
+  background-image: url('../assests/image/green-chameleon-176136.png');
+  /* opacity: 100%; */
+}
+
+.card1-3 {
+  background-image: url('../assests/image/oliur-rahman-272875.png');
+}
+
+.card1-4 {
+  background-image: url('../assests/image/igor-son-285029.png');
+}
+
+.card1-5 {
+  background-image: url('../assests/image/img.png');
+}
+
+.card2-1 {
+  background-image: url(../assests/image/oliur-rahman-123819.png);
+}
+
+.card2-3 {
+  background-image: url('../assests/image/dose-media-344938.png');
+}
+.logoWhite-footer {
+  color: #ffffff;
+  opacity: 30%;
+}
+
+.explain {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  opacity: 70%;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.section2 {
+  font-family: 'OSWALD';
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.follow-us {
+  opacity: 70%;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.instagram-logo {
+  width: 16px;
+  height: 16px;
+}
+
+.pinterest-logo {
+  width: 12.39px;
+  height: 16px;
+}
+
+.twitter-logo {
+  width: 16px;
+  height: 13px;
+}
+
+.facebook-logo {
+  width: 7.38px;
+  height: 16px;
+}
+
+.input-box {
+  border: 0;
+  outline: 0;
+  width: 180px;
+  height: 35px;
+  color: #ffffff;
+}
+
+.sub-button {
+  border: 0;
+  outline: 0;
+  width: 120px;
+  height: 35px;
+  background-color: #ff565c;
+  color: #ffffff;
+}
