@@ -29,9 +29,10 @@
   }
 
   .main-section {
+    min-height: calc(100%-250px);
     display: grid;
-    grid-template-columns: 10fr 3fr;
-    margin-top: 40px;
+    grid-template-columns: 9.1fr 3fr;
+    margin: 40px 0 120px 0;
   }
 
   .left-section {
@@ -43,16 +44,19 @@
   .card1-down {
     display: grid;
     grid-template-columns: 3fr 7fr;
+    margin-top: 17px;
   }
 
   .card1-down-right {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    margin-left: 32px;
   }
 
   .card1-down-right-down {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 17px;
   }
   .card1-1 {
     width: 1012px;
@@ -82,7 +86,7 @@
 
   .right-section {
     display: grid;
-    grid-template-rows: 2fr 6fr 2fr;
+    grid-template-rows: 2.25fr 4.5fr 2fr;
   }
 
   .card2-1 {
@@ -105,9 +109,6 @@
     width: 1440px;
     height: 160px;
     background-color: #1d1f24;
-
-    position: absolute;
-    bottom: 0px;
 
     display: grid;
     grid-template-columns: 2fr 5fr 3fr;
